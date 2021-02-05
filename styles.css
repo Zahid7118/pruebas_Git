@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.section-nav{
+    background-color:#595858;
+}
+
+.header{
+    margin: 0 10px;
+    font-size: 0; /*al poner inline se pone eso para evitar que los caracteres generes espacios*/
+}
+
+.header > *{
+    display: inline-block;
+    font-size: 16px;
+    height: 100px;
+    line-height:45px; /*de donde estoy asegurar ancho*/
+    vertical-align: middle;
+}
+header .titulo{
+ width: 25%;
+ font-family: 'Hanalei', cursive;
+ color: red;
+ font-size: 30px;
+ letter-spacing: 8px;
+ text-align: center;
+}
+header a{
+    text-decoration: none;
+    color: red;
+}
+
+header .titulo-2{
+width: 15%;
+text-align: right;
+color: salmon;
+position: relative;
+top: 30px;
+}
+
+.navbar{
+    width: 60%;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.header li{
+    display: inline;
+    padding: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.header .button{
+    color: white;
+    border: solid 2px white;  
+    border-radius: 30px;
+    padding: 20px;
+    font-weight: bold;
+    background-color:tomato;
+    outline: none; /* quita el remarcado del boton al hacer click*/
+    width:80%;
+}
+
+.portada
+{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    margin:10px 0 0;
+}
+.portada figure{
+    margin: 0
+}
+
+.banner img{
+    width: 50%;
+    height: 50%;
+}
