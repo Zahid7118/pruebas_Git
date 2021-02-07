@@ -3,12 +3,14 @@ body{
     padding: 0;
 }
 .section-nav{
-    background-color:#595858;
+    background-color:#595858;    
 }
 
 .header{
     margin: 0 10px;
     font-size: 0; /*al poner inline se pone eso para evitar que los caracteres generes espacios*/
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header > *{
@@ -53,7 +55,7 @@ top: 30px;
 
 .header li{
     display: inline;
-    padding: 50px;
+    padding: 40px;
     color: white;
     font-weight: bold;
     font-size: 25px;
@@ -85,3 +87,24 @@ top: 30px;
     width: 50%;
     height: 50%;
 }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    border: solid 5px black;
+    margin: 10px 0 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .flex-container .elemento{
+    width: 25%;
+    height: 150px;
+    color: #FFF;
+    text-align: center;
+    line-height: 150px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: #C0392B;
+  }
